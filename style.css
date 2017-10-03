@@ -1,0 +1,45 @@
+body{
+	color: white;
+	font-family: 'Petit Formal Script', cursive;
+	background-color: #895202;
+	font-size: 50px;
+	text-align: center;
+	margin-top: 0;
+	background-size: 100% 100%;
+}
+
+#bg {
+	background-image: url('images/stack_of_cookies.jpg');
+	background-size: cover;
+	background-position: center center;
+	height: 120vh;
+	z-index: -10;
+	padding: 0px;
+
+
+}
+
+
+#transbox {
+  height: 375px;
+  width: 300px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  border: 3px dashed black;
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+  font-family: 'Petit Formal Script', cursive;
+  text-align: center;
+  color: black;
+  font-size: 25px;
+  text-align: center;
+   /* For IE8 and earlier */
+}
+
+#footer1 {
+	font-size: 20px;
+	color: white;
+	display: inline-block;
+	font-family: 'Arial';
+}
+
